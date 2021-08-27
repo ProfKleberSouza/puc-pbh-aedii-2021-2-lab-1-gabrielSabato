@@ -13,6 +13,6 @@ int main()
     //EXECUTA A FUNCAO
     s = soma(n1,n2);
     //IMPRIME A RESPOSTA
-    printf("SOMA: %d",s);
+    printf("SOMA = %d",s);
     return 0;
 }
