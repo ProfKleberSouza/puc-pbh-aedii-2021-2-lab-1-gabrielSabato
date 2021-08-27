@@ -1,7 +1,7 @@
 
 #include "functions.h"
 
-int somar(int n1, int n2){
+int soma(int a, int b){
 
-    return n1+n2;
+    return a+b;
 }
