@@ -1,18 +1,17 @@
 #include <stdio.h>
+#include <string.h>
 #include "functions.h"
 
-int main() {
-
-    int a, b, s;
-  
-  // ENTRADA DE DADOS
-  scanf("%d %d", &a, &b);
-
-  // PROCESSAMENTO - EXECUTANDO A FUNCAO
-  s = somar(a, b);
-
-  // SAIDA - IMPRIMINDO O RESULTADO
-  printf("SOMA = %d\n", s);
-
-  return(0);
+int main()
+{
+    //DECLARA AS VARIAVEIS.
+    char palavra[50];
+    //APRESENTA A FUNCAO DO ALGORITMO E SOLICITA A ENTRADA DE DADOS.
+    printf("Verifica se e palindromo!\n");
+    printf("Digite a palavra\n");
+    //ENTRADA DE DADOS.
+    gets(palavra);
+    //EXECUTA A FUNCAO
+    palindromo(palavra);
+    return 0;
 }
